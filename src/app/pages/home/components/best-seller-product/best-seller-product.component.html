@@ -1,0 +1,30 @@
+<div class="relative h-56 rounded-3xl bg-white flex flex-col items-center justify-center">
+
+  <div class="h-0 z-10 bg-gray-800 w-full flex flex-row justify-center ">
+    <div class="
+                ml-20
+                mt-2
+                h-8
+                w-8
+                flex
+                flex-row
+                justify-center
+                items-center
+                font-bold
+                bg-white
+                rounded-full
+                shadow
+                " (click)="product.favorite = !product.favorite">
+      <i class="fa{{product.favorite ? '' : 'r'}} fa-heart text-persimmon-600 text-xs"></i>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <img class="w-20 h-36" src="{{product.url}}" alt="{{product.name}}">
+
+  <!-- Details -->
+  <div>
+    <span class="block text-sm leading-3 pt-3 font-semibold">{{product.price}}</span>
+    <span class="block text-sm font-light">{{product.name}}</span>
+  </div>
+</div>

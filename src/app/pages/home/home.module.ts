@@ -8,10 +8,11 @@ import { SearchComponent } from './components/search/search.component';
 import { CategoryComponent } from './components/category/category.component';
 import { HotSalesComponent } from './components/hot-sales/hot-sales.component';
 import { BestSellerComponent } from './components/best-seller/best-seller.component';
+import { BestSellerProductComponent } from './components/best-seller-product/best-seller-product.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, TopBarComponent, SearchComponent, CategoryComponent, HotSalesComponent, BestSellerComponent],
+  declarations: [HomeComponent, TopBarComponent, SearchComponent, CategoryComponent, HotSalesComponent, BestSellerComponent, BestSellerProductComponent],
   imports: [
     CommonModule,
     HomeRoutingModule
