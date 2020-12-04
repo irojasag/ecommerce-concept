@@ -9,10 +9,11 @@ import { CategoryComponent } from './components/category/category.component';
 import { HotSalesComponent } from './components/hot-sales/hot-sales.component';
 import { BestSellerComponent } from './components/best-seller/best-seller.component';
 import { BestSellerProductComponent } from './components/best-seller-product/best-seller-product.component';
+import { ExplorerComponent } from './components/explorer/explorer.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, TopBarComponent, SearchComponent, CategoryComponent, HotSalesComponent, BestSellerComponent, BestSellerProductComponent],
+  declarations: [HomeComponent, TopBarComponent, SearchComponent, CategoryComponent, HotSalesComponent, BestSellerComponent, BestSellerProductComponent, ExplorerComponent],
   imports: [
     CommonModule,
     HomeRoutingModule

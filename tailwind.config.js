@@ -188,6 +188,7 @@ module.exports = {
       10: "2.5rem", // 40 px
       12: "3rem", // 48 px
       16: "4rem", // 64 px
+      18: "4.5rem", // 72 px
       20: "5rem", // 80 px
       24: "6rem",
       32: "8rem",
@@ -328,6 +329,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      xxs: "0.5rem", // 8px
       xs: "0.75rem",
       sm: "0.875rem", // 14 px
       base: "1rem", // 16 px
