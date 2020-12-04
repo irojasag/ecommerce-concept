@@ -1,0 +1,36 @@
+<div class="mt-5 w-full px-3 md:flex md:flex-row md:justify-center">
+  <div class="md:max-w-xl">
+    <!-- Title row -->
+    <div class="h-5 flex flex-row justify-between items-center">
+      <span class="text-2xl font-bold">Select Category</span>
+      <span class="text-sm text-persimmon-600 lowercase">View All</span>
+    </div>
+
+    <!-- Categories row -->
+    <div class="flex flex-row mt-7 max-w-full overflow-x-auto">
+      <div class="flex flex-row ">
+        <div *ngFor="let category of categoriesList" class="flex flex-col justify-center items-center mr-2 md:mr-3">
+          <app-category (click)="activateCategory(category)" class="flex flex-col items-center w-16" [category]="category"></app-category>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search input -->
+    <div class="flex flex-row mt-8 ">
+
+      <!-- Input -->
+      <div class="w-full flex flex-col pr-4 justify-center">
+        <i class="absolute fa fa-search pl-4 text-persimmon-600"></i>
+        <input class="w-full h-full rounded-full pl-10 border-2 focus:outline-none focus:border-persimmon-600" type="text" placeholder="Search">
+      </div>
+
+      <!-- QR -->
+      <div class="flex flex-col w-16">
+        <button class=" bg-persimmon-600 rounded-full h-7 w-7 flex justify-center items-center">
+          <i class="fa fa-qrcode text-white"></i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>

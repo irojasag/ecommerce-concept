@@ -64,6 +64,7 @@ module.exports = {
 
       gray: {
         100: "#f7fafc",
+        150: "#e5e5e5",
         200: "#edf2f7",
         300: "#e2e8f0",
         400: "#cbd5e0",
@@ -182,11 +183,12 @@ module.exports = {
       4: "1rem", // 16 px
       5: "1.25rem", // 20 px
       6: "1.5rem", // 24 px
+      7: "1.75rem", // 28 px
       8: "2rem", // 32 px
-      10: "2.5rem", // 48
-      12: "3rem",
-      16: "4rem",
-      20: "5rem",
+      10: "2.5rem", // 40 px
+      12: "3rem", // 48 px
+      16: "4rem", // 64 px
+      20: "5rem", // 80 px
       24: "6rem",
       32: "8rem",
       40: "10rem",
@@ -326,11 +328,11 @@ module.exports = {
     },
     fontSize: {
       xs: "0.75rem",
-      sm: "0.875rem",
+      sm: "0.875rem", // 14 px
       base: "1rem", // 16 px
       lg: "1.125rem",
       xl: "1.25rem",
-      "2xl": "1.5rem",
+      "2xl": "1.5rem", // 24 px
       "3xl": "1.875rem", // 30px
       "4xl": "2.25rem",
       "5xl": "3rem",

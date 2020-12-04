@@ -1,0 +1,10 @@
+<!-- Ball -->
+<div class="flex flex-row bg-white h-16 w-16 rounded-full justify-center items-center" [ngClass]="{'active': category.active}">
+  <i class="fa fa-{{ category.content }} text-gray-500 text-3xl"></i>
+</div>
+<!-- Title -->
+<div class="flex flex-row" [ngClass]="{'active': category.active}">
+  <span class="text-statos-600 mt-1 text-sm">
+    {{ category.title}}
+  </span>
+</div>

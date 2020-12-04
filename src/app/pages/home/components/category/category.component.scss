@@ -1,0 +1,11 @@
+div.active {
+  &:first-of-type {
+    @apply bg-persimmon-600;
+  }
+  i {
+    @apply text-white;
+  }
+  span {
+    @apply text-persimmon-600;
+  }
+}
